@@ -1,0 +1,1 @@
+{"loss_mean": 0.23047664761543274, "_timestamp": 1725179786.5152724, "_runtime": 34.3004093170166, "_step": 11, "acc_student_e_train_SUN397": 0.625, "iteration": 0, "acc_student_e_train_Cars": 0.5, "acc_student_e_train_RESISC45": 0.78125, "acc_student_e_train_EuroSAT": 0.96875, "_wandb": {"runtime": 33}}

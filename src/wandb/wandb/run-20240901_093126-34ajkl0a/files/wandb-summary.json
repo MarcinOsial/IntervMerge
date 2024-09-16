@@ -1,0 +1,1 @@
+{"loss_mean": 0.18151408433914185, "_timestamp": 1725183105.9521198, "_runtime": 19.61512279510498, "_step": 4, "acc_student_e_train_SUN397": 0.65625, "iteration": 0, "_wandb": {"runtime": 20}}

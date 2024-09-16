@@ -1,0 +1,172 @@
+{
+    "os": "Linux-5.15.0-118-generic-x86_64-with-glibc2.10",
+    "python": "3.8.18",
+    "heartbeatAt": "2024-09-01T09:28:53.521380",
+    "startedAt": "2024-09-01T09:28:52.922812",
+    "docker": null,
+    "cuda": null,
+    "args": [
+        "--iterations",
+        "500",
+        "--name",
+        "experiment_name",
+        "--group",
+        "lw_adamerging",
+        "--model",
+        "ViT-B-32",
+        "--batch_size",
+        "128",
+        "--data_location",
+        "/home/marcin.osial/AdaMerging/data",
+        "--save_checkpoints",
+        "checkpoints",
+        "--logs",
+        "logs",
+        "--device",
+        "cuda:0",
+        "--exam_datasets",
+        "SUN397",
+        "Cars",
+        "RESISC45",
+        "EuroSAT",
+        "SVHN",
+        "GTSRB",
+        "MNIST",
+        "DTD",
+        "--wandb",
+        "--deterministic",
+        "--layerwise",
+        "--use_lambda_custom",
+        "--reft_position=0",
+        "--num_layer=12",
+        "--start_layer=11",
+        "--seed",
+        "1",
+        "--low_rank_dimension",
+        "1",
+        "--model_hidden_size=768",
+        "--save_model_flag",
+        "--use_intervention",
+        "--train_intervention",
+        "--train_lambdas"
+    ],
+    "state": "running",
+    "program": "src/main_intervmerge.py",
+    "codePathLocal": "src/main_intervmerge.py",
+    "codePath": "src/main_intervmerge.py",
+    "git": {
+        "remote": "git@github.com:MarcinOsial/IntervMerge.git",
+        "commit": "2d92ea31da16b58774bc38595c37afcbf38888a4"
+    },
+    "email": "marcinosiall@gmail.com",
+    "root": "/home/marcin.osial/IntervMerge",
+    "host": "lab2",
+    "username": "marcin.osial",
+    "executable": "/home/marcin.osial/miniconda3/envs/adamerg/bin/python",
+    "cpu_count": 8,
+    "cpu_count_logical": 16,
+    "cpu_freq": {
+        "current": 3764.4081874999997,
+        "min": 1400.0,
+        "max": 3800.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 3800.0,
+            "min": 1400.0,
+            "max": 3800.0
+        },
+        {
+            "current": 4479.73,
+            "min": 1400.0,
+            "max": 3800.0
+        },
+        {
+            "current": 4641.421,
+            "min": 1400.0,
+            "max": 3800.0
+        },
+        {
+            "current": 3800.0,
+            "min": 1400.0,
+            "max": 3800.0
+        },
+        {
+            "current": 3800.0,
+            "min": 1400.0,
+            "max": 3800.0
+        },
+        {
+            "current": 3800.0,
+            "min": 1400.0,
+            "max": 3800.0
+        },
+        {
+            "current": 3800.0,
+            "min": 1400.0,
+            "max": 3800.0
+        },
+        {
+            "current": 3800.0,
+            "min": 1400.0,
+            "max": 3800.0
+        },
+        {
+            "current": 3281.089,
+            "min": 1400.0,
+            "max": 3800.0
+        },
+        {
+            "current": 2786.862,
+            "min": 1400.0,
+            "max": 3800.0
+        },
+        {
+            "current": 3800.0,
+            "min": 1400.0,
+            "max": 3800.0
+        },
+        {
+            "current": 1400.0,
+            "min": 1400.0,
+            "max": 3800.0
+        },
+        {
+            "current": 3800.0,
+            "min": 1400.0,
+            "max": 3800.0
+        },
+        {
+            "current": 3800.0,
+            "min": 1400.0,
+            "max": 3800.0
+        },
+        {
+            "current": 4641.426,
+            "min": 1400.0,
+            "max": 3800.0
+        },
+        {
+            "current": 3800.0,
+            "min": 1400.0,
+            "max": 3800.0
+        }
+    ],
+    "disk": {
+        "/": {
+            "total": 2343.671875,
+            "used": 2084.8565788269043
+        }
+    },
+    "gpu": "NVIDIA GeForce RTX 4080",
+    "gpu_count": 1,
+    "gpu_devices": [
+        {
+            "name": "NVIDIA GeForce RTX 4080",
+            "memory_total": 17171480576
+        }
+    ],
+    "memory": {
+        "total": 62.659156799316406
+    }
+}
